@@ -8,11 +8,11 @@
 
 The last . indicates we want the image to be built based on our `Dockerfile`.
 ```bash
-  docker image build -t `whyuenaclefebvre/nginx-website` ``.``
+  docker image build -t whyuenaclefebvre/nginx-website .
 ```
 
 To push the new image to Docker Hub,
 ```bash
-  docker push `whyuenaclefebvre/nginx-website`
+  docker push whyuenaclefebvre/nginx-website
 ```
 > `docker login` may be required 
